@@ -1,10 +1,11 @@
 import React from 'react';
 
+import LoginPage from './Pages/Login';
+import './App.css';
+
 function App() {
   return (
-    <div className="fist-content">
-      Hello Auth
-    </div>
+    <LoginPage />
   );
 }
 
